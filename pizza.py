@@ -45,7 +45,7 @@ df = pd.DataFrame(data)
 df['total_price'] = df['quantity'] * df['unit_price']
 
 print("Dataset Sample:")
-display(df.head())
+st.dataframe(df.head())
 
 """## Exploratory Data Analysis & Pie Charts
 We will visualize the proportion of pizza sales by category and size using pie charts.
